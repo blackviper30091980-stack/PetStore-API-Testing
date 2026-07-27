@@ -5,6 +5,7 @@ Project: Swagger PetStore API
 Objective: to verify the functionality, reliability and correctness of the Swagger Petstore API by executing positive and negative test scenarios.
 
 2.Scope
+
 The following API modules are included in testing:
 - Pet
 - Store
