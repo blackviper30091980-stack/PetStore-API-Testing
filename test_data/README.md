@@ -77,7 +77,8 @@ invalid data: null,0,empty value,negative numbers.
 
 Complete
 
-valid data: boolean values
+valid data: boolean values;
+
 invalid data:any other values,special symbols,numbers,empty value,null
 
 
