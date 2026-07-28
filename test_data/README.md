@@ -53,9 +53,9 @@ invalid data: negative integer,letters,special characters,empty value, null.
 
 Order ID
 
-valid data:positive integer,unique ID( for creating a new order),existing ID (for retrieving, updating or deliting a order), not null;
+valid data: integer less than or equal to 10,not null
 
-invalid data: negative integer,letters,special characters,empty value, null.
+invalid data: negative integer,integer more than 10,letters,special characters,empty value,null.
 
 Ship Date
 
@@ -74,6 +74,12 @@ Quantity
 valid data: positive numbers(excepts 0,decimals,fractions);
 
 invalid data: null,0,empty value,negative numbers.
+
+Complete
+
+valid data: boolean values
+invalid data:any other values,special symbols,numbers,empty value,null
+
 
 4. USER MODULE
    
@@ -97,9 +103,9 @@ invalid data:missing (@),missing domain,invalid domain,leading dot in the local 
 
 User status
 
-valid data: active,inactive;
+valid data:positive integer,0,not null
 
-invalid data: any other value than active or inactive,misspeled values(e.g.,active,inactive),numbers,special charactes,empty value,null.
+invalid data: letters,special characters,boolean values,null,empty value
 
 Password
 
