@@ -1,7 +1,7 @@
 FIELD / DESCRIPTION
 1.
 
-Test Case ID:  TC_API_oo1
+Test Case ID:  TC_API_001
 
 Module:  Pet
 
@@ -55,7 +55,7 @@ Preconditions: Store order does not exist it the system
 
 Test Data: order ID,pet ID,quatity,shipDate,status,complete
 
-Steps:  1.Send o post request to /store/order with invalid quantity value to create a store order
+Steps:  1.Send a POST request to /store/order with invalid quantity value to create a store order
 
 2. Observe the response
 
@@ -76,7 +76,7 @@ Preconditions: Store order  exists in the system
 
 Test Data: order ID
 
-Steps:  1. Send a delete request to /store/order/{orderid} to delete the store orde with invalid value
+Steps:  1. Send a DELETE request to /store/order/{orderid} to delete the store order with invalid value
 
 2. Observe the response
 
@@ -97,7 +97,7 @@ Test Case ID:   TC_API_005
 
  Test Data: user ID,username,first name,last name,email,password,userStatus,phone
 
- Steps: 1. Send a post request to /user to create a user in the system with invalid id value
+ Steps: 1. Send a POST request to /user to create a user in the system with invalid id value
 
  2. Observe the response
 
@@ -118,7 +118,7 @@ Preconditions: User already exists in the system
 
 Test Data: user ID,username,first name,last name, email,password,phone,userStatus
 
-Steps:  1. Send a put request to /user to update userdata with invalid username value
+Steps:  1. Send a PUT request to /user to update userdata with invalid username value
 
 2. Observe the response
 
