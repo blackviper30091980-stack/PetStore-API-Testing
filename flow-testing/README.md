@@ -59,11 +59,11 @@ FLOW 1. PET LIFECYCLE
  Expected Result:
  
  - pet created ,status code 200;
- - 
+  
  - GET returns the created pet,status code 200;
- - 
+  
  - pet status is updated ,status code 200;
- - 
+  
  - pet is deleted ,status code 200;
    
  - deleted pet is not found,status code 404
@@ -191,11 +191,17 @@ Endpoint: /user/{username}
 get a deleted user by username
 
 Expected Result:
--user is created,status code 200;
--GET returns the created user,status code 200;
--username is updated,status code 200;
-GET returns the updated user;
--an existing user is deleted,status code,200;
+
+- user is created,status code 200;
+  
+- GET returns the created user,status code 200;
+  
+- username is updated,status code 200;
+
+- GET returns the updated user;
+  
+- an existing user is deleted,status code,200;
+  
 -deleted user is not found,status code 404
 
 
