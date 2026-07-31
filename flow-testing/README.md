@@ -57,11 +57,16 @@ FLOW 1. PET LIFECYCLE
  find  a deleted pet by ID
 
  Expected Result:
- -pet created ,status code 200;
- -GET returns the created pet,status code 200;
- -pet status is updated ,status code 200;
- -pet is deleted ,status code 200;
- -deleted pet is not found,status code 404
+ 
+ - pet created ,status code 200;
+ - 
+ - GET returns the created pet,status code 200;
+ - 
+ - pet status is updated ,status code 200;
+ - 
+ - pet is deleted ,status code 200;
+   
+ - deleted pet is not found,status code 404
 
 
 
