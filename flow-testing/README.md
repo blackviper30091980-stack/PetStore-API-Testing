@@ -202,7 +202,8 @@ Expected Result:
   
 - an existing user is deleted,status code,200;
   
--deleted user is not found,status code 404
+- deleted user is not found,status code 404
+  
 
 
 
