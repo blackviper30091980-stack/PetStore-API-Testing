@@ -1,1 +1,1 @@
-
+This folder contains the examples of manual REST API testing performed as a part of my QA learning journey.It includes screenshots of positive and negative test cases, as well as an end-to-edn flow testing scenario executed using Postman against the Swagger Petstore API.
