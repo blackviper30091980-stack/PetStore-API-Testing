@@ -68,4 +68,4 @@ Manual testing of the Swagger PetStore API was successfully completed.The main f
 - Swagger UI
 - GitHub Documentation
 
-- 
+ 
