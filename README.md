@@ -1,5 +1,9 @@
 # PetStore-API-Testing
 
+This repository demonstrates my practical manual API testing skills gained throug  designing test documentation and executing REST API tests using Swagger PetStore and Postman.
+
+
+
 ## Project Overview
 
 This repository contains complete API testing project for the Swagger PetStore application
@@ -38,3 +42,6 @@ This repository contains complete API testing project for the Swagger PetStore a
 - Positive scenarios passed successfully.
 - Negative scenarios returned expected error responses.
 - Flow scenarios verified the complete lifecycle of API objects.
+
+
+
