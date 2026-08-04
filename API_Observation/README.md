@@ -32,3 +32,6 @@ After sending DELETE /pet/{petid} the API returnes 200ok.However, subsequent GET
 
 After sending DELETE to store/order/{orderid} API returnes 200ok.The response body contains only "code":200,"type": "unknown","message":"orderid".
 
+
+IMPORTANT: Swagger PetStore is a demonstration API designed for educational purposes.Some inconsistencies observed during testing are likely related to the limitations of the demo environment and should not be interpreted as defects of a production-ready system.
+
